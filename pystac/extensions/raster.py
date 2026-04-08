@@ -772,6 +772,10 @@ class AssetRasterExtension(RasterExtension[pystac.Asset]):
         return f"<AssetRasterExtension Asset href={self.asset_href}>"
 
 
+class BandRasterExtension(RasterExtension[pystac.Band]):  # type: ignore
+    pass
+
+
 class ItemAssetsRasterExtension(RasterExtension[pystac.ItemAssetDefinition]):
     asset_definition: pystac.ItemAssetDefinition
     """A reference to the :class:`~pystac.ItemAssetDefinition`

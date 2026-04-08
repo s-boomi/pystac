@@ -58,97 +58,97 @@
     "processing:level": "L1C",
     "processing:lineage": "Generation of Level-1C User Product",
     "title": "Sentinel-2A MSI L1C 15/06/2020 06:06:41",
-    "eo:bands": [
+    "bands": [
       {
         "name": "coastal",
         "description": "coastal 443nm TOA 60",
-        "common_name": "coastal",
-        "center_wavelength": 0.4427,
-        "solar_illumination": 1884.69
+        "eo:common_name": "coastal",
+        "eo:center_wavelength": 0.4427,
+        "eo:solar_illumination": 1884.69
       },
       {
         "name": "blue",
         "description": "blue 493nm TOA 10",
-        "common_name": "blue",
-        "center_wavelength": 0.49269999999999997,
-        "solar_illumination": 1959.66
+        "eo:common_name": "blue",
+        "eo:center_wavelength": 0.49269999999999997,
+        "eo:solar_illumination": 1959.66
       },
       {
         "name": "green",
         "description": "green 560nm TOA 10",
-        "common_name": "green",
-        "center_wavelength": 0.5598,
-        "solar_illumination": 1823.24
+        "eo:common_name": "green",
+        "eo:center_wavelength": 0.5598,
+        "eo:solar_illumination": 1823.24
       },
       {
         "name": "red",
         "description": "red 665nm TOA 10",
-        "common_name": "red",
-        "center_wavelength": 0.6646,
-        "solar_illumination": 1512.06
+        "eo:common_name": "red",
+        "eo:center_wavelength": 0.6646,
+        "eo:solar_illumination": 1512.06
       },
       {
         "name": "rededge70",
         "description": "rededge 704nm TOA 20",
-        "common_name": "rededge",
-        "center_wavelength": 0.7041000000000001,
-        "solar_illumination": 1424.64
+        "eo:common_name": "rededge",
+        "eo:center_wavelength": 0.7041000000000001,
+        "eo:solar_illumination": 1424.64
       },
       {
         "name": "rededge74",
         "description": "rededge 740nm TOA 20",
-        "common_name": "rededge",
-        "center_wavelength": 0.7405,
-        "solar_illumination": 1287.61
+        "eo:common_name": "rededge",
+        "eo:center_wavelength": 0.7405,
+        "eo:solar_illumination": 1287.61
       },
       {
         "name": "rededge78",
         "description": "rededge 783nm TOA 20",
-        "common_name": "rededge",
-        "center_wavelength": 0.7827999999999999,
-        "solar_illumination": 1162.08
+        "eo:common_name": "rededge",
+        "eo:center_wavelength": 0.7827999999999999,
+        "eo:solar_illumination": 1162.08
       },
       {
         "name": "nir",
         "description": "nir 833nm TOA 10",
-        "common_name": "nir",
-        "center_wavelength": 0.8328,
-        "solar_illumination": 1041.63
+        "eo:common_name": "nir",
+        "eo:center_wavelength": 0.8328,
+        "eo:solar_illumination": 1041.63
       },
       {
         "name": "nir09",
         "description": "nir09 945nm TOA 60",
-        "common_name": "nir09",
-        "center_wavelength": 0.9451,
-        "solar_illumination": 812.92
+        "eo:common_name": "nir09",
+        "eo:center_wavelength": 0.9451,
+        "eo:solar_illumination": 812.92
       },
       {
         "name": "cirrus",
         "description": "cirrus 1374nm TOA 60",
-        "common_name": "cirrus",
-        "center_wavelength": 1.3735,
-        "solar_illumination": 367.15
+        "eo:common_name": "cirrus",
+        "eo:center_wavelength": 1.3735,
+        "eo:solar_illumination": 367.15
       },
       {
         "name": "swir16",
         "description": "swir16 1614nm TOA 20",
-        "common_name": "swir16",
-        "center_wavelength": 1.6137000000000001,
-        "solar_illumination": 245.59
+        "eo:common_name": "swir16",
+        "eo:center_wavelength": 1.6137000000000001,
+        "eo:solar_illumination": 245.59
       },
       {
         "name": "swir22",
         "description": "swir22 2202nm TOA 20",
-        "common_name": "swir22",
-        "center_wavelength": 2.2024,
-        "solar_illumination": 85.25
+        "eo:common_name": "swir22",
+        "eo:center_wavelength": 2.2024,
+        "eo:solar_illumination": 85.25
       },
       {
         "name": "nir08",
         "description": "nir08 865nm TOA 20",
-        "common_name": "nir08",
-        "center_wavelength": 0.8647,
-        "solar_illumination": 955.32
+        "eo:common_name": "nir08",
+        "eo:center_wavelength": 0.8647,
+        "eo:solar_illumination": 955.32
       }
     ],
     "disaster:class": "Acquisition",
@@ -189,13 +189,13 @@
       ],
       "href": "S2A_MSIL1C_20200615T060641_N0209_R134_T45WWS_20200615T080720.SAFE/GRANULE/L1C_T45WWS_A026014_20200615T060638/IMG_DATA/T45WWS_20200615T060641_B01.jp2",
       "gsd": 60.0,
-      "eo:bands": [
+      "bands": [
         {
           "name": "coastal",
           "description": "coastal 443nm TOA 60",
-          "common_name": "coastal",
-          "center_wavelength": 0.4427,
-          "solar_illumination": 1884.69
+          "eo:common_name": "coastal",
+          "eo:center_wavelength": 0.4427,
+          "eo:solar_illumination": 1884.69
         }
       ],
       "raster:bands": [
@@ -218,13 +218,13 @@
       ],
       "href": "S2A_MSIL1C_20200615T060641_N0209_R134_T45WWS_20200615T080720.SAFE/GRANULE/L1C_T45WWS_A026014_20200615T060638/IMG_DATA/T45WWS_20200615T060641_B02.jp2",
       "gsd": 10.0,
-      "eo:bands": [
+      "bands": [
         {
           "name": "blue",
           "description": "blue 493nm TOA 10",
-          "common_name": "blue",
-          "center_wavelength": 0.49269999999999997,
-          "solar_illumination": 1959.66
+          "eo:common_name": "blue",
+          "eo:center_wavelength": 0.49269999999999997,
+          "eo:solar_illumination": 1959.66
         }
       ],
       "raster:bands": [
@@ -247,13 +247,13 @@
       ],
       "href": "S2A_MSIL1C_20200615T060641_N0209_R134_T45WWS_20200615T080720.SAFE/GRANULE/L1C_T45WWS_A026014_20200615T060638/IMG_DATA/T45WWS_20200615T060641_B03.jp2",
       "gsd": 10.0,
-      "eo:bands": [
+      "bands": [
         {
           "name": "green",
           "description": "green 560nm TOA 10",
-          "common_name": "green",
-          "center_wavelength": 0.5598,
-          "solar_illumination": 1823.24
+          "eo:common_name": "green",
+          "eo:center_wavelength": 0.5598,
+          "eo:solar_illumination": 1823.24
         }
       ],
       "raster:bands": [
@@ -276,13 +276,13 @@
       ],
       "href": "S2A_MSIL1C_20200615T060641_N0209_R134_T45WWS_20200615T080720.SAFE/GRANULE/L1C_T45WWS_A026014_20200615T060638/IMG_DATA/T45WWS_20200615T060641_B04.jp2",
       "gsd": 10.0,
-      "eo:bands": [
+      "bands": [
         {
           "name": "red",
           "description": "red 665nm TOA 10",
-          "common_name": "red",
-          "center_wavelength": 0.6646,
-          "solar_illumination": 1512.06
+          "eo:common_name": "red",
+          "eo:center_wavelength": 0.6646,
+          "eo:solar_illumination": 1512.06
         }
       ],
       "raster:bands": [
@@ -305,13 +305,13 @@
       ],
       "href": "S2A_MSIL1C_20200615T060641_N0209_R134_T45WWS_20200615T080720.SAFE/GRANULE/L1C_T45WWS_A026014_20200615T060638/IMG_DATA/T45WWS_20200615T060641_B05.jp2",
       "gsd": 20.0,
-      "eo:bands": [
+      "bands": [
         {
           "name": "rededge70",
           "description": "rededge 704nm TOA 20",
-          "common_name": "rededge",
-          "center_wavelength": 0.7041000000000001,
-          "solar_illumination": 1424.64
+          "eo:common_name": "rededge",
+          "eo:center_wavelength": 0.7041000000000001,
+          "eo:solar_illumination": 1424.64
         }
       ],
       "raster:bands": [
@@ -334,13 +334,13 @@
       ],
       "href": "S2A_MSIL1C_20200615T060641_N0209_R134_T45WWS_20200615T080720.SAFE/GRANULE/L1C_T45WWS_A026014_20200615T060638/IMG_DATA/T45WWS_20200615T060641_B06.jp2",
       "gsd": 20.0,
-      "eo:bands": [
+      "bands": [
         {
           "name": "rededge74",
           "description": "rededge 740nm TOA 20",
-          "common_name": "rededge",
-          "center_wavelength": 0.7405,
-          "solar_illumination": 1287.61
+          "eo:common_name": "rededge",
+          "eo:center_wavelength": 0.7405,
+          "eo:solar_illumination": 1287.61
         }
       ],
       "raster:bands": [
@@ -363,13 +363,13 @@
       ],
       "href": "S2A_MSIL1C_20200615T060641_N0209_R134_T45WWS_20200615T080720.SAFE/GRANULE/L1C_T45WWS_A026014_20200615T060638/IMG_DATA/T45WWS_20200615T060641_B07.jp2",
       "gsd": 20.0,
-      "eo:bands": [
+      "bands": [
         {
           "name": "rededge78",
           "description": "rededge 783nm TOA 20",
-          "common_name": "rededge",
-          "center_wavelength": 0.7827999999999999,
-          "solar_illumination": 1162.08
+          "eo:common_name": "rededge",
+          "eo:center_wavelength": 0.7827999999999999,
+          "eo:solar_illumination": 1162.08
         }
       ],
       "raster:bands": [
@@ -392,13 +392,13 @@
       ],
       "href": "S2A_MSIL1C_20200615T060641_N0209_R134_T45WWS_20200615T080720.SAFE/GRANULE/L1C_T45WWS_A026014_20200615T060638/IMG_DATA/T45WWS_20200615T060641_B08.jp2",
       "gsd": 10.0,
-      "eo:bands": [
+      "bands": [
         {
           "name": "nir",
           "description": "nir 833nm TOA 10",
-          "common_name": "nir",
-          "center_wavelength": 0.8328,
-          "solar_illumination": 1041.63
+          "eo:common_name": "nir",
+          "eo:center_wavelength": 0.8328,
+          "eo:solar_illumination": 1041.63
         }
       ],
       "raster:bands": [
@@ -421,13 +421,13 @@
       ],
       "href": "S2A_MSIL1C_20200615T060641_N0209_R134_T45WWS_20200615T080720.SAFE/GRANULE/L1C_T45WWS_A026014_20200615T060638/IMG_DATA/T45WWS_20200615T060641_B09.jp2",
       "gsd": 60.0,
-      "eo:bands": [
+      "bands": [
         {
           "name": "nir09",
           "description": "nir09 945nm TOA 60",
-          "common_name": "nir09",
-          "center_wavelength": 0.9451,
-          "solar_illumination": 812.92
+          "eo:common_name": "nir09",
+          "eo:center_wavelength": 0.9451,
+          "eo:solar_illumination": 812.92
         }
       ],
       "raster:bands": [
@@ -450,13 +450,13 @@
       ],
       "href": "S2A_MSIL1C_20200615T060641_N0209_R134_T45WWS_20200615T080720.SAFE/GRANULE/L1C_T45WWS_A026014_20200615T060638/IMG_DATA/T45WWS_20200615T060641_B10.jp2",
       "gsd": 60.0,
-      "eo:bands": [
+      "bands": [
         {
           "name": "cirrus",
           "description": "cirrus 1374nm TOA 60",
-          "common_name": "cirrus",
-          "center_wavelength": 1.3735,
-          "solar_illumination": 367.15
+          "eo:common_name": "cirrus",
+          "eo:center_wavelength": 1.3735,
+          "eo:solar_illumination": 367.15
         }
       ],
       "raster:bands": [
@@ -479,13 +479,13 @@
       ],
       "href": "S2A_MSIL1C_20200615T060641_N0209_R134_T45WWS_20200615T080720.SAFE/GRANULE/L1C_T45WWS_A026014_20200615T060638/IMG_DATA/T45WWS_20200615T060641_B11.jp2",
       "gsd": 20.0,
-      "eo:bands": [
+      "bands": [
         {
           "name": "swir16",
           "description": "swir16 1614nm TOA 20",
-          "common_name": "swir16",
-          "center_wavelength": 1.6137000000000001,
-          "solar_illumination": 245.59
+          "eo:common_name": "swir16",
+          "eo:center_wavelength": 1.6137000000000001,
+          "eo:solar_illumination": 245.59
         }
       ],
       "raster:bands": [
@@ -508,13 +508,13 @@
       ],
       "href": "S2A_MSIL1C_20200615T060641_N0209_R134_T45WWS_20200615T080720.SAFE/GRANULE/L1C_T45WWS_A026014_20200615T060638/IMG_DATA/T45WWS_20200615T060641_B12.jp2",
       "gsd": 20.0,
-      "eo:bands": [
+      "bands": [
         {
           "name": "swir22",
           "description": "swir22 2202nm TOA 20",
-          "common_name": "swir22",
-          "center_wavelength": 2.2024,
-          "solar_illumination": 85.25
+          "eo:common_name": "swir22",
+          "eo:center_wavelength": 2.2024,
+          "eo:solar_illumination": 85.25
         }
       ],
       "raster:bands": [
@@ -537,13 +537,13 @@
       ],
       "href": "S2A_MSIL1C_20200615T060641_N0209_R134_T45WWS_20200615T080720.SAFE/GRANULE/L1C_T45WWS_A026014_20200615T060638/IMG_DATA/T45WWS_20200615T060641_B8A.jp2",
       "gsd": 20.0,
-      "eo:bands": [
+      "bands": [
         {
           "name": "nir08",
           "description": "nir08 865nm TOA 20",
-          "common_name": "nir08",
-          "center_wavelength": 0.8647,
-          "solar_illumination": 955.32
+          "eo:common_name": "nir08",
+          "eo:center_wavelength": 0.8647,
+          "eo:solar_illumination": 955.32
         }
       ],
       "raster:bands": [

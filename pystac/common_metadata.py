@@ -9,6 +9,7 @@ from pystac.errors import STACError
 
 if TYPE_CHECKING:
     from pystac.asset import Asset
+    from pystac.band import Band
     from pystac.item import Item
     from pystac.provider import Provider
 
@@ -147,6 +148,22 @@ class CommonMetadata:
         self._set_field(
             "providers",
             utils.map_opt(lambda providers: [p.to_dict() for p in providers], v),
+        )
+
+    # Bands
+    # V2.0.0 for some extensions like raster and eo regroup them
+    @property
+    def bands(self) -> list[Band] | None:
+        """Get or set a list of the object's bands."""
+        return utils.map_opt(
+            lambda bands: [pystac.Band.from_dict(d) for d in bands],
+            self._get_field("bands", list[dict[str, Any]]),
+        )
+
+    @bands.setter
+    def bands(self, v: list[Band] | None) -> None:
+        self._set_field(
+            "bands", utils.map_opt(lambda bands: [b.to_dict() for b in bands], v)
         )
 
     # Instrument

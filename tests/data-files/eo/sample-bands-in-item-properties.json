@@ -25,7 +25,7 @@
     "instruments": [
       "cool_sensor_v1"
     ],
-    "eo:bands": [
+    "bands": [
       {
         "name": "band1"
       },
@@ -93,7 +93,7 @@
     "analytic": {
       "href": "http://cool-sat.com/catalog/CS3-20160503_132130_04/analytic.tif",
       "title": "4-Band Analytic",
-      "eo:bands": [
+      "bands": [
         {
           "name": "band1"
         },

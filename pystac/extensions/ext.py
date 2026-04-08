@@ -5,6 +5,7 @@ from typing import Any, Generic, Literal, TypeVar, cast
 
 from pystac import (
     Asset,
+    Band,
     Catalog,
     Collection,
     Item,
@@ -456,3 +457,20 @@ class LinkExt(_AssetsExt[Link]):
     @property
     def storage(self) -> StorageExtension[Link]:
         return StorageExtension.ext(self.stac_object)
+
+
+@dataclass
+class BandExt:
+    """Supporting the :attr:`~pystac.ItemAssetDefinition.ext` accessor for interacting
+    with extension classes
+    """
+
+    stac_object: Band
+
+    @property
+    def eo(self) -> EOExtension[Band]:
+        return EOExtension.ext(self.stac_object)
+
+    # @property
+    # def raster(self) -> RasterExtension[Band]:  # type: ignore
+    #     return RasterExtension.ext(self.stac_object)

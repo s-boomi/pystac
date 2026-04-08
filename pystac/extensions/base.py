@@ -184,7 +184,10 @@ class ExtensionManagementMixin(Generic[S], ABC):
     @classmethod
     def ensure_owner_has_extension(
         cls,
-        asset_or_link: pystac.Asset | pystac.ItemAssetDefinition | pystac.Link,
+        asset_or_link: pystac.Asset
+        | pystac.ItemAssetDefinition
+        | pystac.Link
+        | pystac.Band,
         add_if_missing: bool = False,
     ) -> None:
         """Given an :class:`~pystac.Asset`, checks if the asset's owner has this
